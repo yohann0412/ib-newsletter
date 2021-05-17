@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Big Write - Bridge Newsletter</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="logo">
+                            <h2><a href="index.html">Bridge Newsletter</a></h2>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="menu">
+                            <ul>
+                                <li class="active"><a href="index.html">Home</a></li>
+                                <li><a href="editorial.html">Editorial Team</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="single-blog-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="border-top">
+                            <div class="col-md-8">
+                                <div class="blog-area">
+                                    <div class="blog-area-part">
+                                        <h2>Note by the Editorial Team</h2>
+                                       
+                                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAilBMVEX///8TFBUAAADDw8PX19cKDA06Ojv7+/sODxCUlJQhIiI2Nzc/P0DIyckEBgjy8vK7u7ugoKDj4+NRUlKYmJiHh4cqKysXGRnOz8/19fVdXl7s7OxmZ2eOjo7m5uba2tqsrKxJSkp2d3dhYmJ/f4CysrK8vLympqYuLy9WV1dGRkd3eHhsbW0jJSW9yYPiAAAJn0lEQVR4nO2dD1u6PBSG55QAExGU5I8oGUiWff+v925nA6ZQoT9L13uerkthDNgNYzs7ZyQhqG+VjLq0uXWxrqiUdunj1sW6omw6aMt4uHWxrigk1F9IqL+QUH8hof5CQv2FhPoLCfUXEuovJNRff59woSNh+Drpryeri/Dx1gxfy6FGf3UBakDYVepzhIS3FhIiIRLeXkiIhEh4eyEhEiLh7YWESIiEt9f/gfAMTXUk9FO7txb7LsR79yaeJS39pWfp7/u8kVB/IaH+QkL9hYT6Cwn1FxLqLyTUX0iov5BQf+lJaPaXnoTDc/ylnd7je/eX/h983kiIhEh4ayEhEiLh7YWESIiEtxcSIiES3l5IiIQ6EP51T1Qy7C9n2+lNvHPCs4Qz9/QXEuovJNRfSKi/kFB/IaH+QkL9hYT6Cwn1FxLqL5tO26J/yRNVPs87tLp1sVAoFAqFQqFQKBQKhUKhUCjUr+iwHE+Nw3Y5ZlrmK2qNLZskqf3I9bpNN2Sd5q+wErCVYfC+j7nyIDjM5/t47t6a4DutKC0J2VCLiZrEDCi1eTrjNgy6gzwj+BEMuoaVIXcL0wCWnWdKkxsVvLdWdEY4A3fQU34/bEnIf64DthESiq0+rAz5iiRkVeD+CV9i/qkQknEKn/0Iyf0T7kP+qRJmUPq+hO/r3y7xuYJbeETon0U4u3tCqJJHhOaCf/YjNH+9vJdKJRTqRZikv17SS3Uh4Uh/QtEffkq4sn+9pJfqM8K8yLKsSNuEuZskowNd3Ki85+szwsUoDMNR1iK0BsNdkVt/gPCzWmo9wfJEf8LPWhrrQ+ymf0vzDaH55+8hcbTp9C8lZLLv3vQG/QPh290PgUGXE7r0rxNu/zqhRzUh3Ii3YKMmZQAJVY8Pqvw0XEu+6A6fqR6ETv0jF+kGEhI1Ya2uVFnTRenZQcDWAk26CxQKhUKhUD8j03Wj73P9uIqsmHFxp1pWFLNiyBKTwPZAi9T2slAZAZbpQmxJU9MMgiB/3+YBaPvOFvKwymhmz/MyCz7yTZ2SptVBF16221S2UJjKk9npqMp72Nf+kSRIxQnSwLmIMHG3YGh668QPM2ZnyldgLEidkSg8UPrqNTfDhg3PvMjs+zAiKSRYJCnZV1FdOEpzODylL43huhSnItFwzL7nVYl9Yfc2F3LN1hRjcAqbhxfxcQXgAJX77+ibWFDGFg41KM2q7PAPTqZzTjiFVHhXyBqzpWgsByPkQC0qltjgg9a38QkO6vGsbKepuAic8GRkU9LKzQdaWkoJ/5WQeA8tQn5Ci763CUVaQ8iKKnZYsRLK/AkdGDViQ0i2ylklYXMPH4wBffkpQnPSJiRTtkLtNmFyQkhiqKXcR17XV8tilydqEXpw1kMnoQvbmgfjuoQk7yB8hyybE8JI3G6VsMiIHE7Tqs3hPylI4xbhDg7z3ElYwgGqS3R1Qr+DsIAsqxNC971FuCnZxzP/mURaRU4PsO+om3DfSTifNtuuTej4VeoRoerkaAhJ0iIkbl3eqi3M4fDbTkJZ808Ik4F13PJck7Csm70jwkQUYXhCSNqERD5hDaEMXJ0SFtCYRl2EpfQLZT9BOOm+h6Y4pd2LcHtMKP59lqi0CmFMp3Qsz3ZCuJXV9Pm6hI4ozZeEeS9CeAxbhCOV0HRTOp5n1R7HhK4tnvsG+TqEL2WZs875S8JDL0LWmX1JOJ3n2w/6sZ3VLcsxYeaDPcASyqsSgh3oXeMevn1DCAXndhl9W3cR8kYJGuD6HerrEIrAfNzd0kjCoBfhS+dz6DeE8BzyJpZOzTZhxK/1UPVBX5Vw100oa03RizDt1ZZ6Sq9+RFgAliWC7Ncn3NTjlyNCX2kPvyV0OvrD6dspobBb8jbhir8fvn/lOavYwTUJubw2IRTaEBbrt4Ty+lf9tTCxs27CVYvQFKaqtDE2nYTnRp5PCR/ahAuly/ye0FOsWPFYWkvSl3AmTynOn3YRbvJ/Ixx9tAl580j3Cu2XhOSRKgXiB6JOb8KVrN3w+MopHyeEdnM3LiKMH1uEvMrQidmbMJka9WCLN1LVsko47CY05SikShu1CU167gyQY8KMTlqEk6lBa0u/ByHv7arObMZG+3WJFMKom3CYVXkfjbpYx4T7Cwj5FG+xlxvQqSQ0eCp3JfgPlE6UxxyyHxGyBOOIkERxFXt8ooo/4gkOWsrd2IWKSTnjhj3MMudm+EvtbYJqLHwhS9hNbAkf6ZmEnj23lsulNS8zL91TurQmED9cDljq9LDYvr0eytrSIaW9N9iGwePCFrU2s/d8/8HSTo9CpWFMF37ivBq1E8tMF2N+UCO2gRE8WBOPhGlOWfKSBmnBGt6t6DScQLingkKWxdindhCPqbU8+x7+lMywKIdfzSCOnMI5cahGpilTzEj8FFqEAVgUCoVCoa4gfzSC2eogsbAmZuJGIBfEFpR+N7Mbf/t6nYCajjsSCWv/bnpqZkDSuFwIE6nw+ES1lLheKWJ2qbew33nUr2z2UGN7ZSZ2nNRbJyJhNrub6W4ruvT5zD2w7iP4wQvx/qFRe1dIuFQI2bBHdSg8TRsHB1PyyvezrN8qfg+toHBKYMJR37CUmRKFkBnHVPk3e/GT6jNiVRiGBNbd1FFWQhiBqaGXvfKGZZXL9uodIJbYABzSo+HhIrs7wj2MjFTCnfL+YZXLrwnBKVV5N5he5PBVhAv9XXl3hCKYrBImHYSkHsWKYGlcb4jJh9H4BT3hhrorQtFoHM2ChiSVcKTkp1bVJgnFkklkTe+QUOized5iedskO6nVuL+5YjW46O80JVT+y+whOhx7omIZlIa5E56pJ+HitUl+roImVWgsJlW0j+1sE+0Iix03cxqLJWT93nEIOq4jUxnxh/oRhqa78RTC3JehFkNOnYK33Q8yhXf7uhFCKzpSXnJq8spqyglltCnhnaaWhORQZ4OOX3ijpQ0APaNwSr/wXl9PwjqalR5SpgknlLE2QRjQ2tzWk5Alm2DczRPf99eFGoIGQl+dCqAjIZHTuTbSnU6V4YSw33jFFZm1JfQy9lHN4RWtqYjtCUI+P1NEQbUlHHAzreoh1Lf1BCGz3GSQUFdCjxuifn68EeqsHGXspzKsfa+EjRejkoCQwXgPJnDbtfMibaqp/N2AGRWVVob97smLwbUeFcJ/5ITiLkbhSLqm1uuNY3NXVGHOWIcnLoEr3rKkw2izpR7cZ1NU0vUoF5vC8B5eRKi1rr2JjiR0GveidDW6LvuSm0PxAsOsCEfsT4zu5TxKuR870l0R/hH9B8XZxpkkAgf5AAAAAElFTkSuQmCC" style="padding-bottom: 30px;"alt=""> 
+                                            “The secret of change is to focus all of your energy, not on fighting the old, but on building the new.”
+                                            Socrates 
+                                            The words spoken by the Greek philosopher and thinker Socrates could not be truer. His understanding of change inspired us to take up the challenge of stepping outside our comfort zones and challenging ourselves to reach heights we never even dreamed of. 
+                                            
+                                            IB Bridge so far has truly been an enriching experience. At first none of us knew what to expect, however over the past three weeks we have been slowly transitioning from one curriculum to another, learning new skills through the different modules of the bridge program and interacting with new students and teachers. During this time, we have been adapting to a new way of thinking and have understood the expectations of the IB program. There is a lot left to take in, but we’re getting there. 
+                                            Despite an eventful first couple of weeks, we realized that we pretty much have a long two years ahead of us which will definitely be filled with lots of learning as well as situations where we make mistakes. Our hope is that we can take something valuable from the same.
+                                            With that we present to you the first IB Bridge Newsletter from the first Newsletter editorial team of the batch of 2023, which we hope provides an insight into what has happened so far. We hope you enjoy reading this newsletter as much as we enjoyed making it!
+                                            
+                                            </p>
+                                            <p>Best Wishes,&#10; <br> The Editorial Team </p>
+                                            
+                                     <!--    <h3><i class="fa fa-quote-left" aria-hidden="true"></i>Lorem ipsum dolor sit
+                                            amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                                            labo<i class="fa fa-quote-right" aria-hidden="true"></i></h3> -->
+                                        <!-- <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="image-one">
+                                                    <img src="https://www.researchgate.net/profile/Ambjoern-Naeve/publication/264081583/figure/fig18/AS:668858478239760@1536479696873/A-taxonomy-of-learning-in-the-cognitive-affective-and-psycho-motor-domains.png" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="image-two">
+                                                    <img src="https://thepeakperformancecenter.com/wp-content/uploads/2016/02/Three-Learning-Domains.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div> -->
+                                        <!-- <p>This module simultaneously prepares us to be able to communicate as effectively as possible and promote high-level research as well. The main rationale behind it is to introduce central areas of the extended essays, academic honesty, effective research and citation techniques. 
+                                           ->  We covered the 3 domains of a learner - Cognitive, affective and psychomotor. We went into comprehensive detail about how each of these domains is necessary for a successful learner, and how they all correlate to our success in the real world. -->
+                                            
+                                            </p>
+                                        <!-- <p> The module consists of 12 parts which will conclude with the students producing one extended piece of writing on the topic of their choice.</p> -->
+                                    </div>
+                                    <!-- <div class="ads-area">
+                                        <img src="img/ads.jpg" alt="">
+                                        <p>Your Ad Banner Goes Here</p>
+                                    </div> -->
+                                    <div class="commententries">
+                                        <h3>Meet the Team: </h3>
+
+                                        <ul class="commentlist">
+                                            <li>
+                                                <article class="comment">
+                                                    <header class="comment-author">
+                                                        <img src="img/anannya.jpg" alt="">
+                                                    </header>
+                                                    <section class="comment-details">
+                                                        <div class="author-name">
+                                                            <h5><a href="#">Anannya Vaidya</a></h5>
+                                                            <!-- <p>16<SUP>th</SUP> May, 2021</p> -->
+                                                        </div>
+                                                        <div class="comment-body">
+                                                            <p>Hey, my name is Anannya Vaidya. I enjoy public speaking and playing the piano. A surprising fact about me is that I don’t like chocolate ice creams.
+                                                        </div>
+                                                    </section>
+                                                    </article>
+                                            </li>
+                                            <li>
+                                                <article class="comment">
+                                                    <header class="comment-author">
+                                                        <img src="img/aryaman.jpeg" alt="">
+                                                    </header>
+                                                    <section class="comment-details">
+                                                        <div class="author-name">
+                                                            <h5><a href="#">Aryaman Dora Tepal</a></h5>
+                                                            <!-- <p>16<SUP>th</SUP> May, 2021</p> -->
+                                                        </div>
+                                                        <div class="comment-body">
+                                                            <p>Hi, my name is Aryaman Dora Tepal. My homies include public speaking in the form of argumentation, as well as sports such as athletics and football. Fun fact: I have not seen the iron man trilogy.
+                                                            </p>
+                                                        </div>
+                                                    </section>
+                                                    </article>
+                                            </li><li>
+                                                <article class="comment">
+                                                    <header class="comment-author">
+                                                        <img src="img/aryan.PNG" alt="">
+                                                    </header>
+                                                    <section class="comment-details">
+                                                        <div class="author-name">
+                                                            <h5><a href="#">Aryan Roshan</a></h5>
+                                                            <!-- <p>16<SUP>th</SUP> May, 2021</p> -->
+                                                        </div>
+                                                        <div class="comment-body">
+                                                            <p>Hi, my name is Aryan Roshan. I enjoy playing sports like Basketball, Batminton etc and love playing video games. I also love to cook Chinese. Fun Fact: I hate sweets.
+                                                            </p>
+                                                        </div>
+                                                    </section>
+                                                    </article>
+                                            </li><li>
+                                                <article class="comment">
+                                                    <header class="comment-author">
+                                                        <img src="img/vismay.jpg" alt="">
+                                                    </header>
+                                                    <section class="comment-details">
+                                                        <div class="author-name">
+                                                            <h5><a href="#">Vismay Sachin Suramwar</a></h5>
+                                                            <!-- <p>16<SUP>th</SUP> May, 2021</p> -->
+                                                        </div>
+                                                        <div class="comment-body">
+                                                            <p>Hi everyone, I'm Vismay Suramwar! I enjoy public speaking, writing and MUN!
+                                                            </p>
+                                                        </div>
+                                                    </section>
+                                                    </article>
+                                            </li><li>
+                                                <article class="comment">
+                                                    <header class="comment-author">
+                                                        <img src="img/rachael.jpg" alt="">
+                                                    </header>
+                                                    <section class="comment-details">
+                                                        <div class="author-name">
+                                                            <h5><a href="#">Rachael Elizabeth Jijo</a></h5>
+                                                            <!-- <p>16<SUP>th</SUP> May, 2021</p> -->
+                                                        </div>
+                                                        <div class="comment-body">
+                                                            <p>Hey! My name is Rachael Jijo. My interests include reading and writing, sports such as horse riding, athletics and badminton, and  sketching. Fun fact: I've fallen from a horse over 40 times.
+                                                            </p>
+                                                        </div>
+                                                    </section>
+                                                    </article>
+                                            </li><li>
+                                                <article class="comment">
+                                                    <header class="comment-author">
+                                                        <img src="img/divij.jpg" alt="">
+                                                    </header>
+                                                    <section class="comment-details">
+                                                        <div class="author-name">
+                                                            <h5><a href="#">Divij Vinay Punjabi</a></h5>
+                                                            <!-- <p>16<SUP>th</SUP> May, 2021</p> -->
+                                                        </div>
+                                                        <div class="comment-body">
+                                                            <p>Hi my name is Divij Punjabi. My hobbies include public speaking and at the same time I am an avid badminton player. Fun fact: I have never watched Friends nor eaten at KFC my entire life.
+                                                            </p>
+                                                        </div>
+                                                    </section>
+                                                    </article>
+                                            </li><li>
+                                                <article class="comment">
+                                                    <header class="comment-author">
+                                                        <img src="img/Hunar.jpg" alt="">
+                                                    </header>
+                                                    <section class="comment-details">
+                                                        <div class="author-name">
+                                                            <h5><a href="#">Hunar Miglani</a></h5>
+                                                            <!-- <p>16<SUP>th</SUP> May, 2021</p> -->
+                                                        </div>
+                                                        <div class="comment-body">
+                                                            <p>Hey, my name is Hunar Miglani. My hobbies include reading, writing, acting and being a full time narcissist. This comprises my passion as well.
+                                                            </p>
+                                                        </div>
+                                                    </section>
+                                                    </article>
+                                            </li><li>
+                                                <article class="comment">
+                                                    <header class="comment-author">
+                                                        <img src="#" alt="">
+                                                    </header>
+                                                    <section class="comment-details">
+                                                        <div class="author-name">
+                                                            <h5><a href="#">Yohann Andrew D'Souza</a></h5>
+                                                            <!-- <p>16<SUP>th</SUP> May, 2021</p> -->
+                                                        </div>
+                                                        <div class="comment-body">
+                                                            <p>Hi everyone! I enjoy argumentative and creative writing, MUN, and programming!
+                                                            </p>
+                                                        </div>
+                                                    </section>
+                                                    </article>
+                                            </li>
+                                            <li>
+                                                <article class="comment">
+                                                    <header class="comment-author">
+                                                        <img src="img/samyuktha.jpeg" alt="">
+                                                    </header>
+                                                    <section class="comment-details">
+                                                        <div class="author-name">
+                                                            <h5><a href="#">Samyuktha Senthilvelan</a></h5>
+                                                            <!-- <p>16<SUP>th</SUP> May, 2021</p> -->
+                                                        </div>
+                                                        <div class="comment-body">
+                                                            <p>Hey I’m Samyuktha Senthilvelan,I like to read and sing - fun fact I’m five whole feet!!!
+                                                
+                                            </li>
+                                                            </p>
+                                                        </div>
+                                                    </section>
+                                                    </article>
+                                            </li>
+                                        </ul>
+                                       </div>    
+                                                                                           
+                                      
+                        <!-- <div class="newsletter">
+                            <h2 class="sidebar-title">Subscribe To oUR nEWSLETTER</h2>
+                            <form action="#" method="post">
+                                <input type="email" name="" id="" placeholder="Email">
+                                <input type="submit" value="Subscribe">
+                            </form> -->
+                        </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer-bg">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <div class="footer-menu">
+                                        <ul>
+                                            <li class="active"><a id="edit" href="index.html">Click here to begin viewing the newsletter!</a></li>
+                                            
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-md-3">
+                                    <div class="footer-icon">
+                                        <p><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></p>
+                                    </div>
+                                </div> -->
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.js"></script>
+    <script src="js/active.js"></script>
+</body>
+
+</html>
